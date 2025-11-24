@@ -31,22 +31,16 @@ jobs:
             compiler: clang
             arch: x86_64
           # aarch64 runners
-          - os: ubuntu-24.04-arm64
+          - os: ubuntu-24.04-arm
             compiler: gcc
             arch: aarch64
-          - os: ubuntu-24.04-arm64
+          - os: ubuntu-24.04-arm
             compiler: clang
             arch: aarch64
-          - os: ubuntu-22.04-arm64
+          - os: ubuntu-22.04-arm
             compiler: gcc
             arch: aarch64
-          - os: ubuntu-22.04-arm64
-            compiler: clang
-            arch: aarch64
-          - os: ubuntu-latest-arm64
-            compiler: gcc
-            arch: aarch64
-          - os: ubuntu-latest-arm64
+          - os: ubuntu-22.04-arm
             compiler: clang
             arch: aarch64
       fail-fast: false
